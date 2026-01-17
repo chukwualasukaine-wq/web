@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>My Project</title>
+<link rel="stylesheet" href="style.css"></head>
+<body>
+    <header>
+        <h1>Survey Form</h1>
+    </header>
+
+    <form>
+        <p>let us know how we can improve freeCodeCamp</p>
+        <label for="name">Name:</label>
+<input type="text" name="name" id="name" placeholder="Enter your name" required="">
+<br><br>
+<label for="email">Email:</label>
+<input type="email" name="email" id="email" placeholder="Enter Email" required=""><br><br>
+
+
+<label for="Age">Age:</label>
+<input type="number" placeholder="Age" > <br> <br> <br>
+
+
+<label for="occupation">Which option best describes your current role?:</label>
+<select name="occupation" id="occupation">
+    <option value="q1">student</option>
+    <option value="q2">unemployed</option>
+    <option value="q3">self employed</option>
+</select><br><br>
+<p>How likely is that you would recommend freeCodeCamp to a friend: </p>
+<input type="radio" name="question" id="option-1" value="Definitely">
+<label for="option-1">Definitely</label><br>
+<input type="radio" name="question" id="option-2" value="maybe">
+<label for="option-2">maybe</label><br>
+<input type="radio" name="question" id="option-3" value="not sure">
+<label for="option-3">not sure</label><br><br>
+
+<label for="further question">What do you like most in FCC:</label>
+<select name="further question" id="further question">
+    <option value="q1">select an option</option>
+    <option value="q2"></option>
+</select>
+<p>Things that should be improved in the future <br>(check all that apply):</p>
+<input type="checkbox" name="okay" value="1" id="option-1">
+<label for="option-1">front-end Projects</label><br>
+<input type="checkbox" name="okay" value="2" id="option-2">
+<label for="option-2">back-end Projects</label><br>
+<input type="checkbox" name="okay" value="3" id="option-3">
+<label for="option-3">Data Visualisation</label><br><br>
+
+
+
+
+    </form>
+
+    
+
+
+ </body>
+ </html>
